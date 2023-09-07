@@ -1,0 +1,141 @@
+
+
+#main-section
+{
+    background-color: rgb(161, 136, 117);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#main-title
+{
+    font-family: 'Great Vibes', cursive;
+    color: rgb(177, 177, 70);
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    width: 80%;
+    text-align: center;
+    padding-top: 0.4rem;
+    text-shadow: 1px 1px black;
+
+}
+
+#calculator-main
+{
+    background-color: rgb(77, 74, 74);
+    width: 25rem;
+    height: 40rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-color: black;
+    border-width: 0.25rem;
+    border-style: solid;
+}
+
+#main-display
+{
+    width: 80%;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border-width: 0.25rem;
+    border-style: solid;
+    background-color: antiquewhite;
+    border-radius: 0.5rem;
+}
+
+#switchboard
+{
+    width: 88%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.num-button
+{
+    height: 100%;
+    width: 4.5rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: dimgray;
+    color: whitesmoke;
+}
+.num-button:hover
+{
+    background-color: rgb(126, 121, 121);
+    color: wheat;
+}
+
+.num-button:active
+{
+    background-color: rgb(197, 191, 191);
+    color: black;
+    transform: scale(0.95);
+    transition: 2ms;
+}
+
+.num-button-util
+{
+    height: 100%;
+    width: 9.5rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: rgb(182, 112, 112);
+    color: whitesmoke;
+}
+
+.num-button-util:hover
+{
+    background-color: rgb(182, 97, 97);
+}
+
+.num-button-util:active
+{
+    background-color: rgb(228, 138, 138);
+    color: black;
+    transform: scale(0.95);
+    transition: 2ms;
+}
+
+
+.row
+{
+    height: 4.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#hist-data
+{
+    width: 95%;
+    font-family: sans-serif;
+    height: 1rem;
+}
+
+#current-num
+{
+    width: 95%;
+    text-align: right;
+    font-size: 3rem;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Segment7Standard', sans-serif;
+}
